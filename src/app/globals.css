@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --navy: #0b1f3a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f8fbff;
+  color: var(--navy);
+}
+
+::selection {
+  background: #bfdbfe;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+  @apply rounded-lg border border-slate-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-glow;
+}
+
+.label {
+  @apply inline-flex rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-700;
+}
+
+.field {
+  @apply w-full rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm outline-none transition focus:border-skyAccent focus:ring-4 focus:ring-skyAccent/15;
+}
+
+.flodesk-native-embed [data-ff-el="root"] {
+  width: 100%;
+}
+
+.flodesk-native-embed [data-ff-el="root"] .ff-6a7e745e74e77421d655d97c__container {
+  max-width: none;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.flodesk-native-embed [data-ff-el="root"] .ff-6a7e745e74e77421d655d97c__form {
+  padding: 34px;
+}
+
+.flodesk-native-embed [data-ff-el="root"] .ff-6a7e745e74e77421d655d97c__control {
+  height: 50px;
+  border-color: #dbeafe;
+  border-radius: 8px;
+  background: #f8fbff;
+  color: #0b1f3a;
+}
+
+.flodesk-native-embed [data-ff-el="root"] .ff-6a7e745e74e77421d655d97c__label {
+  color: #475569;
+}
+
+.flodesk-native-embed [data-ff-el="root"] .ff-6a7e745e74e77421d655d97c__button {
+  min-height: 52px;
+  border-color: #10b981;
+  border-radius: 8px;
+  background: #10b981;
+  font-weight: 700;
+}
+
+.flodesk-native-embed [data-ff-el="root"] .ff-6a7e745e74e77421d655d97c__success-message {
+  color: #0b1f3a;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .flodesk-native-embed [data-ff-el="root"] .ff-6a7e745e74e77421d655d97c__form {
+    padding: 18px;
+  }
+}
