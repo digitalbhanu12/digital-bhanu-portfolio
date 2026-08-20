@@ -17,6 +17,15 @@ export default function ThankYouPage() {
         <p className="mt-4 text-slate-600">
           Your details were submitted through Flodesk. Please check your email for the next steps.
         </p>
+        <div className="mt-8 overflow-hidden rounded-2xl border border-sky-100 bg-black shadow-soft">
+          <iframe
+            className="aspect-video w-full"
+            src={brand.thankYouVideoEmbedUrl}
+            title="Digital Bhanu thank-you video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <Link
             href={brand.whatsappUrl}

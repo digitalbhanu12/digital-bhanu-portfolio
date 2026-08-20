@@ -10,8 +10,9 @@ export const brand = {
   optionalLanguage: "Nepali and English",
   email: "hello@digitalbhanu.com",
   phone: "Add phone or WhatsApp number",
-  whatsappUrl: "https://wa.me/97798XXXXXXXX?text=Hello%20Digital%20Bhanu",
+  whatsappUrl: "https://wa.me/9779862752226?text=Hello%20Digital%20Bhanu",
   thankYouVideoUrl: "https://www.youtube.com/shorts/uiEPINpo79g",
+  thankYouVideoEmbedUrl: "https://www.youtube.com/embed/uiEPINpo79g",
   appointmentUrl: "https://appointment.digitalbhanu12.com/",
   footer:
     "© 2026 Digital Bhanu. All rights reserved. Images and videos displayed on this website are AI-generated unless otherwise stated."
